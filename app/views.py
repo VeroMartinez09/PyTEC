@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
+# Aquí se ponen las funciones ruteadoras para mostrar las vistas en el front
 
 def bienvenida(request):
     return HttpResponse("<h1>Bienvenido a PyTec</h1>")
